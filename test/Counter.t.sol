@@ -21,4 +21,8 @@ contract CounterTest is Test {
         counter.setNumber(x);
         assertEq(counter.number(), x);
     }
+
+    function testHash() public {
+        assertEq(counter.hash(1, 2), 7853200120776062878684798364095072458815029376092732009249414926327459813530);
+    }
 }
