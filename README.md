@@ -10,8 +10,10 @@ forge install
 
 For Javascript / Typescript:
 ```
-# npm install circomlibjs@0.0.8 @zk-kit/incremental-merkle-tree big-integer --save
-# npm install typescript --save-dev
+#   npm install circomlibjs@0.0.8 @zk-kit/incremental-merkle-tree big-integer --save
+#   npm install typescript --save-dev
+# OR
+#   npm ci
 npx tsc a.ts
 node a.js
 ```
